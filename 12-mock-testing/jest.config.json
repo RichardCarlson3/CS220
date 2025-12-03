@@ -1,0 +1,15 @@
+{
+  "collectCoverageFrom": ["<rootDir>/src/!(main).js"],
+  "coverageReporters": ["lcov", "json-summary", "text"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 50,
+      "functions": 100,
+      "statements": 80
+    }
+  },
+  "testPathIgnorePatterns": ["<rootDir>/out/", "<rootDir>/node_modules/"],
+  "transform": {},
+  "automock": false,
+  "resetMocks": false
+}
