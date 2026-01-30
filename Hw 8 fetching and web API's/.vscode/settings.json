@@ -1,0 +1,5 @@
+{
+  "files.autoSave": "afterDelay",
+  "javascript.suggest.autoImports": false,
+  "jestrunner.jestCommand": "npm run test --"
+}
